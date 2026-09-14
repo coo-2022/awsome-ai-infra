@@ -330,10 +330,13 @@
           <mxGeometry height="49.78723404255319" width="98.33333333333333" x="438.40277777777777" y="124.46808510638297" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-197" parent="uGVj-viS1-V09DIKpfnA-209" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="L3 Storage Backend" vertex="1">
-          <mxGeometry height="82.97872340425532" width="241.73611111111111" x="153.64583333333334" y="307.02127659574467" as="geometry" />
+          <mxGeometry height="82.97872340425532" width="241.73611111111111" x="153.64583333333334" y="260.0012765957447" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-211" parent="uGVj-viS1-V09DIKpfnA-207" style="text;html=1;whiteSpace=wrap;fillColor=#60a917;align=center;verticalAlign=middle;rounded=0;fontSize=18;strokeColor=#2D7600;fontColor=#ffffff;horizontal=0;" value="逻辑功能" vertex="1">
           <mxGeometry height="90" width="40" x="15" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uGVj-viS1-V09DIKpfnA-212" parent="uGVj-viS1-V09DIKpfnA-207" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. 初始化&lt;div&gt;2. 使用逻辑&lt;/div&gt;&lt;div&gt;3. 销毁逻辑&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="89.24" x="25" y="490" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-208" parent="uGVj-viS1-V09DIKpfnA-205" style="swimlane;startSize=20;" value="效果" vertex="1">
           <mxGeometry height="660" width="190" x="1010" as="geometry" />
