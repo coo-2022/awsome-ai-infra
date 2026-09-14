@@ -10,6 +10,9 @@
         <mxCell id="uGVj-viS1-V09DIKpfnA-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#001DBC;fillColor=#0050ef;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;fontSize=18;" value="vLLM" vertex="1">
           <mxGeometry height="40" width="130" x="970" y="40" as="geometry" />
         </mxCell>
+        <mxCell id="uGVj-viS1-V09DIKpfnA-3" parent="1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&lt;ol&gt;&lt;li&gt;逻辑结构和部署结构&lt;/li&gt;&lt;li&gt;一条请求的生命周期&lt;/li&gt;&lt;li&gt;HiCache、HiSparse的设计逻辑&lt;/li&gt;&lt;li&gt;PD分离的设计方案&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="320" y="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
