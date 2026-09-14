@@ -97,6 +97,9 @@
             <mxPoint x="550" y="1390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="uGVj-viS1-V09DIKpfnA-124" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#001DBC;fillColor=#0050ef;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;fontSize=18;" value="LMCache" vertex="1">
+          <mxGeometry height="40" width="130" x="1770" y="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
