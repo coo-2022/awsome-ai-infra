@@ -264,16 +264,16 @@
           <mxGeometry height="30" width="305" x="45" y="1620" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-205" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=70;horizontal=0;horizontalStack=1;" value="HiCache" vertex="1">
-          <mxGeometry height="480" width="1140" x="50" y="1870" as="geometry" />
+          <mxGeometry height="660" width="1200" x="50" y="1870" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-206" parent="uGVj-viS1-V09DIKpfnA-205" style="swimlane;startSize=20;" value="背景与动机" vertex="1">
-          <mxGeometry height="480" width="215" x="70" as="geometry" />
+          <mxGeometry height="660" width="215" x="70" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-210" parent="uGVj-viS1-V09DIKpfnA-206" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. 在长上下文、Agent场景下，KVCache过大无法保存和无法共享&lt;div&gt;2. 参考CPU的三级缓存机制，实现了HBM容量的扩展&lt;/div&gt;" vertex="1">
           <mxGeometry height="175.74" width="159.34" x="20.33" y="152.13" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-207" parent="uGVj-viS1-V09DIKpfnA-205" style="swimlane;startSize=20;" value="核心实现" vertex="1">
-          <mxGeometry height="480" width="725" x="285" as="geometry" />
+          <mxGeometry height="660" width="725" x="285" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-209" connectable="0" parent="uGVj-viS1-V09DIKpfnA-207" style="group" value="" vertex="1">
           <mxGeometry height="390" width="590" x="75" y="50" as="geometry" />
@@ -332,8 +332,11 @@
         <mxCell id="uGVj-viS1-V09DIKpfnA-197" parent="uGVj-viS1-V09DIKpfnA-209" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="L3 Storage Backend" vertex="1">
           <mxGeometry height="82.97872340425532" width="241.73611111111111" x="153.64583333333334" y="307.02127659574467" as="geometry" />
         </mxCell>
+        <mxCell id="uGVj-viS1-V09DIKpfnA-211" parent="uGVj-viS1-V09DIKpfnA-207" style="text;html=1;whiteSpace=wrap;fillColor=#60a917;align=center;verticalAlign=middle;rounded=0;fontSize=18;strokeColor=#2D7600;fontColor=#ffffff;horizontal=0;" value="逻辑功能" vertex="1">
+          <mxGeometry height="90" width="40" x="15" y="110" as="geometry" />
+        </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-208" parent="uGVj-viS1-V09DIKpfnA-205" style="swimlane;startSize=20;" value="效果" vertex="1">
-          <mxGeometry height="480" width="130" x="1010" as="geometry" />
+          <mxGeometry height="660" width="190" x="1010" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
