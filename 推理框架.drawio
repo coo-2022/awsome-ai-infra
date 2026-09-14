@@ -261,7 +261,7 @@
           <mxGeometry height="300" width="120" x="510" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-185" parent="1" style="text;html=1;whiteSpace=wrap;fillColor=#60a917;align=center;verticalAlign=middle;rounded=0;fontSize=18;strokeColor=#2D7600;fontColor=#ffffff;" value="HiCache" vertex="1">
-          <mxGeometry height="30" width="305" x="45" y="1620" as="geometry" />
+          <mxGeometry height="30" width="305" x="50" y="1800" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-205" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=70;horizontal=0;horizontalStack=1;" value="HiCache" vertex="1">
           <mxGeometry height="660" width="1200" x="50" y="1870" as="geometry" />
@@ -291,25 +291,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-189" parent="uGVj-viS1-V09DIKpfnA-209" style="whiteSpace=wrap;html=1;" value="L1 GPU Memory" vertex="1">
-          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="45.06944444444444" y="58.08510638297872" as="geometry" />
+          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="45.06944444444444" y="69.99510638297872" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-199" edge="1" parent="uGVj-viS1-V09DIKpfnA-209" source="uGVj-viS1-V09DIKpfnA-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="uGVj-viS1-V09DIKpfnA-197">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-190" parent="uGVj-viS1-V09DIKpfnA-209" style="whiteSpace=wrap;html=1;" value="L2 Host Memory" vertex="1">
-          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="45.06944444444444" y="124.46808510638297" as="geometry" />
+          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="45.06944444444444" y="136.37808510638297" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-202" edge="1" parent="uGVj-viS1-V09DIKpfnA-209" source="uGVj-viS1-V09DIKpfnA-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uGVj-viS1-V09DIKpfnA-192">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-191" parent="uGVj-viS1-V09DIKpfnA-209" style="whiteSpace=wrap;html=1;" value="L1 GPU Memory" vertex="1">
-          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="225.34722222222223" y="58.08510638297872" as="geometry" />
+          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="225.34722222222223" y="69.99510638297872" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-200" edge="1" parent="uGVj-viS1-V09DIKpfnA-209" source="uGVj-viS1-V09DIKpfnA-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uGVj-viS1-V09DIKpfnA-197">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-192" parent="uGVj-viS1-V09DIKpfnA-209" style="whiteSpace=wrap;html=1;" value="L2 Host Memory" vertex="1">
-          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="225.34722222222223" y="124.46808510638297" as="geometry" />
+          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="225.34722222222223" y="136.37808510638297" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-193" parent="uGVj-viS1-V09DIKpfnA-209" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Node B" vertex="1">
           <mxGeometry height="232.3404255319149" width="204.86111111111111" x="385.13888888888886" as="geometry" />
@@ -321,13 +321,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-195" parent="uGVj-viS1-V09DIKpfnA-209" style="whiteSpace=wrap;html=1;" value="L1 GPU Memory" vertex="1">
-          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="438.40277777777777" y="58.08510638297872" as="geometry" />
+          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="438.40277777777777" y="69.99510638297872" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-201" edge="1" parent="uGVj-viS1-V09DIKpfnA-209" source="uGVj-viS1-V09DIKpfnA-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="uGVj-viS1-V09DIKpfnA-197">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-196" parent="uGVj-viS1-V09DIKpfnA-209" style="whiteSpace=wrap;html=1;" value="L2 Host Memory" vertex="1">
-          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="438.40277777777777" y="124.46808510638297" as="geometry" />
+          <mxGeometry height="49.78723404255319" width="98.33333333333333" x="438.40277777777777" y="136.37808510638297" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-197" parent="uGVj-viS1-V09DIKpfnA-209" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="L3 Storage Backend" vertex="1">
           <mxGeometry height="82.97872340425532" width="241.73611111111111" x="153.64583333333334" y="260.0012765957447" as="geometry" />
