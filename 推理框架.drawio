@@ -244,21 +244,21 @@
         <mxCell id="uGVj-viS1-V09DIKpfnA-180" parent="1" style="text;html=1;whiteSpace=wrap;fillColor=#60a917;align=center;verticalAlign=middle;rounded=0;fontSize=18;strokeColor=#2D7600;fontColor=#ffffff;" value="Scheduler内部逻辑" vertex="1">
           <mxGeometry height="30" width="305" x="50" y="1150" as="geometry" />
         </mxCell>
-        <mxCell id="uGVj-viS1-V09DIKpfnA-181" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;whiteSpace=wrap;" value="Pool" vertex="1">
-          <mxGeometry height="300" width="630" x="55" y="1240" as="geometry">
+        <mxCell id="uGVj-viS1-V09DIKpfnA-181" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=45;horizontal=0;horizontalStack=1;whiteSpace=wrap;" value="scheduler" vertex="1">
+          <mxGeometry height="300" width="595" x="55" y="1240" as="geometry">
             <mxRectangle height="50" width="40" x="55" y="1240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-182" parent="uGVj-viS1-V09DIKpfnA-181" style="swimlane;html=1;startSize=20;" value="Lane 1" vertex="1">
-          <mxGeometry height="300" width="275" x="20" as="geometry">
+          <mxGeometry height="300" width="215" x="45" as="geometry">
             <mxRectangle height="300" width="40" x="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-183" parent="uGVj-viS1-V09DIKpfnA-181" style="swimlane;html=1;startSize=20;" value="Lane 2" vertex="1">
-          <mxGeometry height="300" width="215" x="295" as="geometry" />
+          <mxGeometry height="300" width="215" x="260" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-184" parent="uGVj-viS1-V09DIKpfnA-181" style="swimlane;html=1;startSize=20;" value="Lane 3" vertex="1">
-          <mxGeometry height="300" width="120" x="510" as="geometry" />
+          <mxGeometry height="300" width="120" x="475" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-185" parent="1" style="text;html=1;whiteSpace=wrap;fillColor=#60a917;align=center;verticalAlign=middle;rounded=0;fontSize=18;strokeColor=#2D7600;fontColor=#ffffff;" value="HiCache" vertex="1">
           <mxGeometry height="30" width="305" x="50" y="1800" as="geometry" />
