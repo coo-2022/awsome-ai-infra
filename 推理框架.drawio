@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="WYipfPop1kEh6kE0D_NI">
-    <mxGraphModel dx="2054" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1712" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
             <mxPoint x="305" y="3180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uGVj-viS1-V09DIKpfnA-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="图被编译之后，会产生不同的算子类型，有控制类的，有计算类的，会入到不同的流" vertex="1">
+        <mxCell id="uGVj-viS1-V09DIKpfnA-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. 图被编译之后，会产生不同的算子类型，有控制类的，有计算类的，会入到不同的流&lt;div&gt;2. 图的调度是怎样的？算子图编写之后，是如何编译执行的？涉及到执行顺序和性能的问题&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="250" x="125" y="3250" as="geometry" />
         </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-118" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rotation=90;" value="" vertex="1">
