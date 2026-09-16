@@ -4,6 +4,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IhSpvJx4EV5FtWoVdd1e-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Service" vertex="1">
+          <mxGeometry height="60" width="490" x="180" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IhSpvJx4EV5FtWoVdd1e-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FS Core" vertex="1">
+          <mxGeometry height="150" width="490" x="180" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="IhSpvJx4EV5FtWoVdd1e-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Backend" vertex="1">
+          <mxGeometry height="60" width="490" x="180" y="590" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
