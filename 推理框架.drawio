@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="WYipfPop1kEh6kE0D_NI">
-    <mxGraphModel dx="1417" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="822" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -519,6 +519,12 @@
         </mxCell>
         <mxCell id="4bBfu2AjV4SUpKhr4yTu-398" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;fontColor=light-dark(#000000,#FF0000);" value="问题解决汇总：&lt;div&gt;1. 256K无法成功推理&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="400" x="1597.54" y="3340" as="geometry" />
+        </mxCell>
+        <mxCell id="4bBfu2AjV4SUpKhr4yTu-399" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="220" width="310" x="2080" y="3970" as="geometry" />
+        </mxCell>
+        <mxCell id="4bBfu2AjV4SUpKhr4yTu-401" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="client" vertex="1">
+          <mxGeometry height="30" width="60" x="2205" y="3950" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
