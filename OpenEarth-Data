@@ -89,7 +89,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FUSE" vertex="1">
-          <mxGeometry height="30" width="170" x="-10" y="1190" as="geometry" />
+          <mxGeometry height="30" width="170" y="1170" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-9" edge="1" parent="1" source="PHP2zM8ls6g-hCpOMtcX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PHP2zM8ls6g-hCpOMtcX-3">
           <mxGeometry relative="1" as="geometry" />
@@ -98,31 +98,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VFS" vertex="1">
-          <mxGeometry height="30" width="170" x="-10" y="1240" as="geometry" />
+          <mxGeometry height="30" width="170" y="1220" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-11" edge="1" parent="1" source="PHP2zM8ls6g-hCpOMtcX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PHP2zM8ls6g-hCpOMtcX-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="meta layer" vertex="1">
-          <mxGeometry height="50" width="100" x="-70" y="1300" as="geometry" />
+          <mxGeometry height="50" width="100" x="-50" y="1360" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-12" edge="1" parent="1" source="PHP2zM8ls6g-hCpOMtcX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PHP2zM8ls6g-hCpOMtcX-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="data layer" vertex="1">
-          <mxGeometry height="50" width="100" x="110" y="1300" as="geometry" />
+          <mxGeometry height="50" width="100" x="130" y="1360" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="metadata&lt;div&gt;backend&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="100" x="-70" y="1400" as="geometry" />
+          <mxGeometry height="50" width="100" x="-50" y="1460" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-13" edge="1" parent="1" source="PHP2zM8ls6g-hCpOMtcX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PHP2zM8ls6g-hCpOMtcX-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="block store&lt;div&gt;object abstraction&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="100" x="110" y="1400" as="geometry" />
+          <mxGeometry height="50" width="100" x="130" y="1460" as="geometry" />
         </mxCell>
         <mxCell id="PHP2zM8ls6g-hCpOMtcX-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="object backend" vertex="1">
-          <mxGeometry height="50" width="100" x="110" y="1490" as="geometry" />
+          <mxGeometry height="50" width="100" x="130" y="1550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
