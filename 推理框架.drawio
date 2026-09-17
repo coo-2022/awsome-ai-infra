@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4bBfu2AjV4SUpKhr4yTu-360" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;" value="NPU" vertex="1">
+          <mxGeometry height="290" width="530" x="1660" y="2610" as="geometry" />
+        </mxCell>
         <mxCell id="uGVj-viS1-V09DIKpfnA-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;fontSize=18;" value="SGLang" vertex="1">
           <mxGeometry height="40" width="130" x="20" y="40" as="geometry" />
         </mxCell>
@@ -389,6 +392,21 @@
         </mxCell>
         <mxCell id="1Ud2rF5iZjg1NJvDUJv8-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" value="入口：hisparse_lru_update&lt;div&gt;输入：topk_indices、device buffer&lt;/div&gt;&lt;div&gt;输出：topk_k_device_slots、is_miss&lt;/div&gt;&lt;div&gt;流程：在kernel上执行topk，&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="170" x="685" y="2900" as="geometry" />
+        </mxCell>
+        <mxCell id="4bBfu2AjV4SUpKhr4yTu-361" edge="1" parent="1" source="4bBfu2AjV4SUpKhr4yTu-357" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4bBfu2AjV4SUpKhr4yTu-358">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4bBfu2AjV4SUpKhr4yTu-357" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="c4 kv pool" vertex="1">
+          <mxGeometry height="50" width="410" x="1720" y="2650" as="geometry" />
+        </mxCell>
+        <mxCell id="4bBfu2AjV4SUpKhr4yTu-362" edge="1" parent="1" source="4bBfu2AjV4SUpKhr4yTu-358" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4bBfu2AjV4SUpKhr4yTu-359">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4bBfu2AjV4SUpKhr4yTu-358" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stage Buffer" vertex="1">
+          <mxGeometry height="50" width="410" x="1720" y="2810" as="geometry" />
+        </mxCell>
+        <mxCell id="4bBfu2AjV4SUpKhr4yTu-359" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SSD" vertex="1">
+          <mxGeometry height="50" width="410" x="1720" y="3010" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
