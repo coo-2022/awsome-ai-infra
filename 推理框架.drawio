@@ -515,7 +515,7 @@
           <mxGeometry height="30" width="130" x="2430" y="2680" as="geometry" />
         </mxCell>
         <mxCell id="4bBfu2AjV4SUpKhr4yTu-398" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;fontColor=light-dark(#000000,#FF0000);" value="问题解决汇总：&lt;div&gt;1. 256K无法成功推理&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="400" x="1597.54" y="3340" as="geometry" />
+          <mxGeometry height="90" width="400" x="1597.54" y="3350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
