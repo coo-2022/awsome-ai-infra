@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i5XCA6e_ndGFOlu4p2Y7-6" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="超级个体" vertex="1">
-          <mxGeometry height="40" width="100" x="111" y="325" as="geometry" />
+          <mxGeometry height="40" width="100" x="90" y="540" as="geometry" />
         </mxCell>
         <mxCell id="i5XCA6e_ndGFOlu4p2Y7-7" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="高生产力" vertex="1">
           <mxGeometry height="30" width="80" x="271" y="300" as="geometry" />
