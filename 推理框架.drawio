@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="WYipfPop1kEh6kE0D_NI">
-    <mxGraphModel dx="822" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1417" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -532,7 +532,7 @@
         <mxCell id="IWdD5Es-PMW-1jkh-Wky-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2100" y="3790" as="sourcePoint" />
-            <mxPoint x="1960" y="3910" as="targetPoint" />
+            <mxPoint x="1960" y="3920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IWdD5Es-PMW-1jkh-Wky-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="容量" vertex="1">
@@ -542,7 +542,25 @@
           <mxGeometry height="30" width="60" x="2040" y="3510" as="geometry" />
         </mxCell>
         <mxCell id="IWdD5Es-PMW-1jkh-Wky-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="带宽" vertex="1">
-          <mxGeometry height="30" width="60" x="1970" y="3890" as="geometry" />
+          <mxGeometry height="30" width="60" x="1950" y="3930" as="geometry" />
+        </mxCell>
+        <mxCell id="IWdD5Es-PMW-1jkh-Wky-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DFlash / DSpark" vertex="1">
+          <mxGeometry height="20" width="120" x="2110" y="3540" as="geometry" />
+        </mxCell>
+        <mxCell id="IWdD5Es-PMW-1jkh-Wky-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" value="HiSparse" vertex="1">
+          <mxGeometry height="90" width="30" x="2340" y="3800" as="geometry" />
+        </mxCell>
+        <mxCell id="IWdD5Es-PMW-1jkh-Wky-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" value="HiCache" vertex="1">
+          <mxGeometry height="90" width="30" x="2300" y="3800" as="geometry" />
+        </mxCell>
+        <mxCell id="IWdD5Es-PMW-1jkh-Wky-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" value="PageAttention" vertex="1">
+          <mxGeometry height="90" width="30" x="2260" y="3800" as="geometry" />
+        </mxCell>
+        <mxCell id="IWdD5Es-PMW-1jkh-Wky-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;rotation=135;" value="FlashAttention" vertex="1">
+          <mxGeometry height="90" width="30" x="1930" y="3820" as="geometry" />
+        </mxCell>
+        <mxCell id="IWdD5Es-PMW-1jkh-Wky-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;rotation=135;" value="FlashAttention" vertex="1">
+          <mxGeometry height="90" width="30" x="1960" y="3790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
