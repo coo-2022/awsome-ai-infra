@@ -48,7 +48,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-4" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="策略" vertex="1">
-          <mxGeometry height="30" width="50" x="455" y="610" as="geometry" />
+          <mxGeometry height="30" width="50" x="451" y="760" as="geometry" />
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-7" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="i5XCA6e_ndGFOlu4p2Y7-6" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-8" value="">
           <mxGeometry relative="1" as="geometry">
@@ -64,7 +64,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-10" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="Agent通过工具调用和知识库，来获得完整的上下文，来实现自动解决这些问题" vertex="1">
-          <mxGeometry height="30" width="195" x="620" y="690" as="geometry" />
+          <mxGeometry height="30" width="195" x="625" y="790" as="geometry" />
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-11" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-8" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-12" value="">
           <mxGeometry relative="1" as="geometry">
@@ -72,15 +72,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-12" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="设计层面" vertex="1">
-          <mxGeometry height="30" width="70" x="550" y="375" as="geometry" />
+          <mxGeometry height="30" width="70" x="550" y="410" as="geometry" />
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-13" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-12" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-14" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="498" y="391" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P9jfySABTu97jrHxtx1q-14" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="不是最大痛点，但是有一个痛点，是agent一般会生成一大堆，用户无法全面的理解" vertex="1">
-          <mxGeometry height="30" width="185" x="760" y="361" as="geometry" />
+        <mxCell id="P9jfySABTu97jrHxtx1q-14" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点1：如何将需求转换成可量化的目标，比如验收用例，比如性能指标" vertex="1">
+          <mxGeometry height="30" width="247" x="680" y="361" as="geometry" />
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-15" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-8" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-16" value="">
           <mxGeometry relative="1" as="geometry">
@@ -88,23 +88,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-16" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="开发层面" vertex="1">
-          <mxGeometry height="30" width="70" x="550" y="425" as="geometry" />
+          <mxGeometry height="30" width="70" x="550" y="480" as="geometry" />
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-17" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-16" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-18" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="505" y="421" as="sourcePoint" />
+            <mxPoint x="505" y="476" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-18" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点1：无法全面理解方案" vertex="1">
-          <mxGeometry height="30" width="160" x="660" y="405" as="geometry" />
+          <mxGeometry height="30" width="160" x="660" y="460" as="geometry" />
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-19" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-16" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-20" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="455" as="sourcePoint" />
+            <mxPoint x="620" y="510" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-20" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点2：逻辑不够清晰，分析问题思路容易跑偏" vertex="1">
-          <mxGeometry height="30" width="160" x="660" y="450" as="geometry" />
+          <mxGeometry height="30" width="160" x="660" y="505" as="geometry" />
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-21" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-8" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-22" value="">
           <mxGeometry relative="1" as="geometry">
@@ -112,23 +112,55 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-22" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="验证层面" vertex="1">
-          <mxGeometry height="30" width="70" x="550" y="520" as="geometry" />
+          <mxGeometry height="30" width="70" x="550" y="575" as="geometry" />
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-23" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-22" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="476" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9jfySABTu97jrHxtx1q-24" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点1：需要配置全量环境，无法自适应的学习到所有环境信息" vertex="1">
+          <mxGeometry height="30" width="195" x="655" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="P9jfySABTu97jrHxtx1q-25" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-22" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="605" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9jfySABTu97jrHxtx1q-26" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点2：需要一个较好的平台来承载过程可信" vertex="1">
+          <mxGeometry height="30" width="231" x="652" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="P9jfySABTu97jrHxtx1q-27" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-8" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-28" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="505" y="421" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P9jfySABTu97jrHxtx1q-24" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点1：需要配置全量环境，无法自适应的学习到所有环境信息" vertex="1">
-          <mxGeometry height="30" width="195" x="655" y="500" as="geometry" />
+        <mxCell id="P9jfySABTu97jrHxtx1q-28" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="验收层面" vertex="1">
+          <mxGeometry height="30" width="70" x="550" y="635" as="geometry" />
         </mxCell>
-        <mxCell id="P9jfySABTu97jrHxtx1q-25" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-22" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-26" value="">
+        <mxCell id="P9jfySABTu97jrHxtx1q-29" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-28" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-30" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="550" as="sourcePoint" />
+            <mxPoint x="505" y="476" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P9jfySABTu97jrHxtx1q-26" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点2：需要一个较好的平台来承载过程可信" vertex="1">
-          <mxGeometry height="30" width="231" x="652" y="540" as="geometry" />
+        <mxCell id="P9jfySABTu97jrHxtx1q-30" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点1：作为人需要看到结构化的结果" vertex="1">
+          <mxGeometry height="30" width="220" x="663" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="P9jfySABTu97jrHxtx1q-31" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-28" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-32" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="665" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9jfySABTu97jrHxtx1q-32" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点2：过程出错之后，要能分析到详细过程，定位到根因，便于改进" vertex="1">
+          <mxGeometry height="30" width="298" x="670" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="P9jfySABTu97jrHxtx1q-33" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-12" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-34" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9jfySABTu97jrHxtx1q-34" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点2：在设计文档出现问题的时候，要能支持迭代" vertex="1">
+          <mxGeometry height="30" width="231" x="680" y="401" as="geometry" />
         </mxCell>
         <mxCell id="i5XCA6e_ndGFOlu4p2Y7-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="阶段一（帮别人赚钱）：解决个人高生产力的问题&lt;div&gt;阶段二（帮别人爽）：解决个人获得情绪价值的问题&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="580" x="260" y="90" as="geometry" />
