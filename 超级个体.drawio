@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="urNvUa_IcWUiB9E5PeWM">
-    <mxGraphModel dx="2562" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2024" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -339,6 +339,38 @@
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-115" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="内网网红" vertex="1">
           <mxGeometry height="30" width="70" x="432" y="227.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-1" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-4" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="EASC9Cv_7uIOA5m7DFei-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="337" y="872" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-2" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="界面" vertex="1">
+          <mxGeometry height="30" width="50" x="421" y="1012.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-5" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="EASC9Cv_7uIOA5m7DFei-2" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="EASC9Cv_7uIOA5m7DFei-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="337" y="872" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-6" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="项目情况" vertex="1">
+          <mxGeometry height="30" width="70" x="511" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-7" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="EASC9Cv_7uIOA5m7DFei-2" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="EASC9Cv_7uIOA5m7DFei-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="471" y="1043" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-8" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="Agent情况" vertex="1">
+          <mxGeometry height="30" width="80" x="514" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-11" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="EASC9Cv_7uIOA5m7DFei-6" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="EASC9Cv_7uIOA5m7DFei-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="471" y="1043" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-12" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="50" x="621" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="i5XCA6e_ndGFOlu4p2Y7-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="阶段一（帮别人赚钱）：解决个人高生产力的问题&lt;div&gt;阶段二（帮别人爽）：解决个人获得情绪价值的问题&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="580" x="270" y="-20" as="geometry" />
