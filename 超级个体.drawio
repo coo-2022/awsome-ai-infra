@@ -80,7 +80,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-14" parent="i5XCA6e_ndGFOlu4p2Y7-1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="痛点1：如何将需求转换成可量化的目标，比如验收用例，比如性能指标" vertex="1">
-          <mxGeometry height="30" width="247" x="660" y="361" as="geometry" />
+          <mxGeometry height="30" width="247" x="660" y="358" as="geometry" />
         </mxCell>
         <mxCell id="P9jfySABTu97jrHxtx1q-15" edge="1" parent="i5XCA6e_ndGFOlu4p2Y7-1" source="P9jfySABTu97jrHxtx1q-8" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" target="P9jfySABTu97jrHxtx1q-16" value="">
           <mxGeometry relative="1" as="geometry">
