@@ -322,12 +322,6 @@
         <mxCell id="i5XCA6e_ndGFOlu4p2Y7-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="以程序员场景来实例化，然后再泛化" vertex="1">
           <mxGeometry height="30" width="231" x="204.5" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="P9jfySABTu97jrHxtx1q-97" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="300" y="500" as="sourcePoint" />
-            <mxPoint x="400" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
