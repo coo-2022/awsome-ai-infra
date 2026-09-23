@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="M3H5-AFYPXtfIpgLkhfG">
-    <mxGraphModel dx="3207" dy="1397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2870" dy="1197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -258,6 +258,246 @@
         </mxCell>
         <mxCell id="CX4mUiV48wwziLAcMwSz-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="写流程" vertex="1">
           <mxGeometry height="30" width="60" x="-100" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-48" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;fontColor=#0E3F7C;fontStyle=1;" value="BrewFS 各类 Cache：什么时候填充、什么时候读取、什么时候淘汰" vertex="1">
+          <mxGeometry height="44" width="1360" x="1210" y="4460" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-49" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#4A6A8A;" value="把 read path / write path 中涉及的几类 cache 生命周期放在一张图里看清楚" vertex="1">
+          <mxGeometry height="28" width="1080" x="1350" y="4503" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FAFDFF;strokeColor=#A8CFF7;strokeWidth=1.5;fontSize=1;fontColor=#133B63;" value="" vertex="1">
+          <mxGeometry height="200" width="1560" x="1110" y="4540" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-51" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#15477A;fontStyle=1;" value="1. 整体数据路径概览" vertex="1">
+          <mxGeometry height="30" width="1536" x="1122" y="4546" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF5FF;strokeColor=#3989E8;strokeWidth=1.5;fontSize=17;fontColor=#133B63;fontStyle=1;" value="应用&lt;br&gt;&lt;b&gt;read() / write()&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="235" x="1145" y="4583" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF5FF;strokeColor=#3989E8;strokeWidth=1.5;fontSize=17;fontColor=#133B63;fontStyle=1;" value="VFS / FileReader /&lt;br&gt;FileWriter" vertex="1">
+          <mxGeometry height="70" width="275" x="1445" y="4583" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF5FF;strokeColor=#3989E8;strokeWidth=1.5;fontSize=18;fontColor=#133B63;fontStyle=1;" value="Cache 层" vertex="1">
+          <mxGeometry height="70" width="260" x="1795" y="4583" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF5FF;strokeColor=#3989E8;strokeWidth=1.5;fontSize=17;fontColor=#133B63;fontStyle=1;" value="Object Store / S3&lt;br&gt;&lt;span style=&#39;font-size:13px&#39;&gt;对象存储&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="275" x="2135" y="4583" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-56" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-57" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-54" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-58" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-55" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFF3F1;strokeColor=#F07A63;strokeWidth=1.5;fontSize=13;fontColor=#133B63;fontStyle=1;" value="🔥 write-hot&lt;br&gt;cache" vertex="1">
+          <mxGeometry height="52" width="115" x="1585" y="4670" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFF8E7;strokeColor=#E6B241;strokeWidth=1.5;fontSize=13;fontColor=#133B63;fontStyle=1;" value="★ hot block&lt;br&gt;cache" vertex="1">
+          <mxGeometry height="52" width="115" x="1710" y="4670" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EEF7FF;strokeColor=#5DA3F3;strokeWidth=1.5;fontSize=13;fontColor=#133B63;fontStyle=1;" value="▣ page&lt;br&gt;cache" vertex="1">
+          <mxGeometry height="52" width="105" x="1835" y="4670" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EFFAF2;strokeColor=#47A96B;strokeWidth=1.5;fontSize=13;fontColor=#133B63;fontStyle=1;" value="● SSD read&lt;br&gt;cache" vertex="1">
+          <mxGeometry height="52" width="115" x="1950" y="4670" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F5F0FF;strokeColor=#8B6FD8;strokeWidth=1.5;fontSize=13;fontColor=#133B63;fontStyle=1;" value="● SSD writeback&lt;br&gt;cache (dirty)" vertex="1">
+          <mxGeometry height="52" width="145" x="2075" y="4670" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#F2F8FE;strokeColor=#91BEEA;strokeWidth=1.5;fontSize=14;fontColor=#133B63;" value="前 4 个主要服务读路径；&lt;br&gt;第 5 个是写回暂存层。" vertex="1">
+          <mxGeometry height="65" width="335" x="2305" y="4663" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FAFDFF;strokeColor=#A8CFF7;strokeWidth=1.5;fontSize=1;fontColor=#133B63;" value="" vertex="1">
+          <mxGeometry height="605" width="1560" x="1110" y="4755" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-66" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#15477A;fontStyle=1;" value="2. 各类 Cache 的生命周期" vertex="1">
+          <mxGeometry height="30" width="1536" x="1122" y="4761" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DCEFFF;strokeColor=#7DB4E7;strokeWidth=1.5;fontSize=14;fontColor=#133B63;fontStyle=1;" value="Cache 类型" vertex="1">
+          <mxGeometry height="45" width="190" x="1120" y="4795" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DCEFFF;strokeColor=#7DB4E7;strokeWidth=1.5;fontSize=14;fontColor=#133B63;fontStyle=1;" value="位置 / 粒度" vertex="1">
+          <mxGeometry height="45" width="160" x="1310" y="4795" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DCEFFF;strokeColor=#7DB4E7;strokeWidth=1.5;fontSize=14;fontColor=#133B63;fontStyle=1;" value="什么时候填充（populate）" vertex="1">
+          <mxGeometry height="45" width="340" x="1470" y="4795" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DCEFFF;strokeColor=#7DB4E7;strokeWidth=1.5;fontSize=14;fontColor=#133B63;fontStyle=1;" value="什么时候读（serve read）" vertex="1">
+          <mxGeometry height="45" width="295" x="1810" y="4795" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DCEFFF;strokeColor=#7DB4E7;strokeWidth=1.5;fontSize=14;fontColor=#133B63;fontStyle=1;" value="什么时候淘汰 / 删除（evict / remove）" vertex="1">
+          <mxGeometry height="45" width="315" x="2105" y="4795" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DCEFFF;strokeColor=#7DB4E7;strokeWidth=1.5;fontSize=14;fontColor=#133B63;fontStyle=1;" value="关键作用" vertex="1">
+          <mxGeometry height="45" width="240" x="2420" y="4795" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFF3F1;strokeColor=#F3B0A2;strokeWidth=1;fontSize=15;fontColor=#133B63;fontStyle=1;" value="🔥 write-hot&lt;br&gt;cache" vertex="1">
+          <mxGeometry height="100" width="190" x="1120" y="4840" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFF3F1;strokeColor=#F3B0A2;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="内存（L1）&lt;br&gt;4MB Block" vertex="1">
+          <mxGeometry height="100" width="160" x="1310" y="4840" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#FFF3F1;strokeColor=#F3B0A2;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="新写入的数据完成上传后，或新块生成后，优先进入 recent-write 热层；保护 read-after-write。" vertex="1">
+          <mxGeometry height="100" width="340" x="1470" y="4840" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#FFF3F1;strokeColor=#F3B0A2;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="读路径优先检查；刚写完又马上读时，可直接返回。" vertex="1">
+          <mxGeometry height="100" width="295" x="1810" y="4840" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#FFF3F1;strokeColor=#F3B0A2;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="受容量限制淘汰；数据变冷或 remove / invalidate 时删除。" vertex="1">
+          <mxGeometry height="100" width="315" x="2105" y="4840" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#FFF3F1;strokeColor=#F3B0A2;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="避免新写数据被普通热缓存准入策略拒绝。" vertex="1">
+          <mxGeometry height="100" width="240" x="2420" y="4840" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFF8E7;strokeColor=#E7C56B;strokeWidth=1;fontSize=15;fontColor=#133B63;fontStyle=1;" value="★ hot block&lt;br&gt;cache" vertex="1">
+          <mxGeometry height="100" width="190" x="1120" y="4940" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFF8E7;strokeColor=#E7C56B;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="内存（L1）&lt;br&gt;4MB Block" vertex="1">
+          <mxGeometry height="100" width="160" x="1310" y="4940" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#FFF8E7;strokeColor=#E7C56B;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="整块读 miss 后，从对象存储拿到完整 block 回填；SSD 命中后也可能晋升。" vertex="1">
+          <mxGeometry height="100" width="340" x="1470" y="4940" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#FFF8E7;strokeColor=#E7C56B;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="大读、整块读、以及能被 block 完整覆盖的请求优先从这里读。" vertex="1">
+          <mxGeometry height="100" width="295" x="1810" y="4940" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#FFF8E7;strokeColor=#E7C56B;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="达到内存容量上限、TTL / TTI 到期、或显式 invalidation 时淘汰。" vertex="1">
+          <mxGeometry height="100" width="315" x="2105" y="4940" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#FFF8E7;strokeColor=#E7C56B;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="最低延迟，服务最热的 block 数据。" vertex="1">
+          <mxGeometry height="100" width="240" x="2420" y="4940" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-85" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EEF7FF;strokeColor=#8FC1F2;strokeWidth=1;fontSize=15;fontColor=#133B63;fontStyle=1;" value="▣ page&lt;br&gt;cache" vertex="1">
+          <mxGeometry height="100" width="190" x="1120" y="5040" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EEF7FF;strokeColor=#8FC1F2;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="内存（L1）&lt;br&gt;64KB Page" vertex="1">
+          <mxGeometry height="100" width="160" x="1310" y="5040" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#EEF7FF;strokeColor=#8FC1F2;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="小范围随机读 miss 时，走 Range GET 获取 page，并放入 page cache。" vertex="1">
+          <mxGeometry height="100" width="340" x="1470" y="5040" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#EEF7FF;strokeColor=#8FC1F2;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="小读（如 32KB / 64KB）优先检查 page cache。" vertex="1">
+          <mxGeometry height="100" width="295" x="1810" y="5040" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#EEF7FF;strokeColor=#8FC1F2;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="达到 page cache 容量上限时淘汰；显式 invalidation 时删除。" vertex="1">
+          <mxGeometry height="100" width="315" x="2105" y="5040" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#EEF7FF;strokeColor=#8FC1F2;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="避免把小随机读放大成整块 4MB 读取。" vertex="1">
+          <mxGeometry height="100" width="240" x="2420" y="5040" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EFFAF2;strokeColor=#8DD5A4;strokeWidth=1;fontSize=15;fontColor=#133B63;fontStyle=1;" value="● SSD read&lt;br&gt;cache" vertex="1">
+          <mxGeometry height="100" width="190" x="1120" y="5140" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EFFAF2;strokeColor=#8DD5A4;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="本地 SSD（L2）&lt;br&gt;4MB Block" vertex="1">
+          <mxGeometry height="100" width="160" x="1310" y="5140" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#EFFAF2;strokeColor=#8DD5A4;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="对象存储读回完整 block 后异步 opportunistic 落盘；也可把上传后的数据持久化为读缓存。" vertex="1">
+          <mxGeometry height="100" width="340" x="1470" y="5140" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#EFFAF2;strokeColor=#8DD5A4;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="内存 block cache miss 后读取；跨重启后仍可复用。" vertex="1">
+          <mxGeometry height="100" width="295" x="1810" y="5140" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#EFFAF2;strokeColor=#8DD5A4;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="磁盘容量到上限时按近似 LRU / access time 驱逐；显式 invalidation 时删除。" vertex="1">
+          <mxGeometry height="100" width="315" x="2105" y="5140" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#EFFAF2;strokeColor=#8DD5A4;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="减少远端 GET，扩大缓存容量，并支持跨重启复用。" vertex="1">
+          <mxGeometry height="100" width="240" x="2420" y="5140" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F5F0FF;strokeColor=#B9A5EA;strokeWidth=1;fontSize=15;fontColor=#133B63;fontStyle=1;" value="● SSD writeback&lt;br&gt;cache (dirty)" vertex="1">
+          <mxGeometry height="100" width="190" x="1120" y="5240" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-98" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F5F0FF;strokeColor=#B9A5EA;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="本地 SSD&lt;br&gt;Dirty Slice / staged data" vertex="1">
+          <mxGeometry height="100" width="160" x="1310" y="5240" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#F5F0FF;strokeColor=#B9A5EA;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="写路径中，Readonly Slice 需要持久化但尚未完全远端上传时，先写入 SSD staging。" vertex="1">
+          <mxGeometry height="100" width="340" x="1470" y="5240" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#F5F0FF;strokeColor=#B9A5EA;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="恢复流程会读；commit-before-upload 下，远端未完成时也可作为本地最新数据源。" vertex="1">
+          <mxGeometry height="100" width="295" x="1810" y="5240" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#F5F0FF;strokeColor=#B9A5EA;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="只有 metadata committed 且 remote upload complete 后才删 dirty record；异常时用于 crash recovery。" vertex="1">
+          <mxGeometry height="100" width="315" x="2105" y="5240" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#F5F0FF;strokeColor=#B9A5EA;strokeWidth=1;fontSize=13;fontColor=#133B63;" value="本地可恢复的写回暂存层，把远端上传移出前台关键路径。" vertex="1">
+          <mxGeometry height="100" width="240" x="2420" y="5240" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FAFDFF;strokeColor=#A8CFF7;strokeWidth=1.5;fontSize=1;fontColor=#133B63;" value="" vertex="1">
+          <mxGeometry height="170" width="780" x="1110" y="5380" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-104" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#15477A;fontStyle=1;" value="3. 读路径：命中顺序" vertex="1">
+          <mxGeometry height="30" width="756" x="1122" y="5386" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-105" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFF3F1;strokeColor=#F07A63;strokeWidth=1.5;fontSize=13;fontColor=#133B63;fontStyle=1;" value="write-hot&lt;br&gt;&lt;span style=&#39;font-size:12px&#39;&gt;内存&lt;/span&gt;" vertex="1">
+          <mxGeometry height="58" width="120" x="1140" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-106" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFF8E7;strokeColor=#E6B241;strokeWidth=1.5;fontSize=13;fontColor=#133B63;fontStyle=1;" value="hot block&lt;br&gt;&lt;span style=&#39;font-size:12px&#39;&gt;内存&lt;/span&gt;" vertex="1">
+          <mxGeometry height="58" width="120" x="1295" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-107" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-106" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-108" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EEF7FF;strokeColor=#5DA3F3;strokeWidth=1.5;fontSize=13;fontColor=#133B63;fontStyle=1;" value="page cache&lt;br&gt;&lt;span style=&#39;font-size:12px&#39;&gt;小读&lt;/span&gt;" vertex="1">
+          <mxGeometry height="58" width="120" x="1450" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-109" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-108" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-110" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EFFAF2;strokeColor=#47A96B;strokeWidth=1.5;fontSize=13;fontColor=#133B63;fontStyle=1;" value="SSD read&lt;br&gt;cache" vertex="1">
+          <mxGeometry height="58" width="120" x="1605" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-111" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-110" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-112" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF5FF;strokeColor=#3989E8;strokeWidth=1.5;fontSize=13;fontColor=#133B63;fontStyle=1;" value="Object Store&lt;br&gt;/ S3" vertex="1">
+          <mxGeometry height="58" width="100" x="1760" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-113" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-112" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-114" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F2F8FE;strokeColor=#A7CAE9;strokeWidth=1.5;fontSize=13;fontColor=#133B63;" value="小读更容易命中 page cache；大读更依赖 hot block cache。" vertex="1">
+          <mxGeometry height="35" width="690" x="1155" y="5500" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-115" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FAFDFF;strokeColor=#A8CFF7;strokeWidth=1.5;fontSize=1;fontColor=#133B63;" value="" vertex="1">
+          <mxGeometry height="170" width="760" x="1910" y="5380" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-116" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#15477A;fontStyle=1;" value="4. 写路径：dirty 数据去向" vertex="1">
+          <mxGeometry height="30" width="736" x="1922" y="5386" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-117" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EEF7FF;strokeColor=#5DA3F3;strokeWidth=1.5;fontSize=12.5;fontColor=#133B63;fontStyle=1;" value="Writable Slice&lt;br&gt;&lt;span style=&#39;font-size:12px&#39;&gt;内存&lt;/span&gt;" vertex="1">
+          <mxGeometry height="58" width="115" x="1940" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-118" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EEF7FF;strokeColor=#5DA3F3;strokeWidth=1.5;fontSize=12.5;fontColor=#133B63;fontStyle=1;" value="Readonly&lt;br&gt;Slice" vertex="1">
+          <mxGeometry height="58" width="105" x="2085" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-119" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-118" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F5F0FF;strokeColor=#8B6FD8;strokeWidth=1.5;fontSize=12.5;fontColor=#133B63;fontStyle=1;" value="SSD writeback&lt;br&gt;cache" vertex="1">
+          <mxGeometry height="58" width="125" x="2220" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-121" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-120" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-122" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#EAF5FF;strokeColor=#3989E8;strokeWidth=1.5;fontSize=12.5;fontColor=#133B63;fontStyle=1;" value="S3 /&lt;br&gt;对象存储" vertex="1">
+          <mxGeometry height="58" width="105" x="2375" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-123" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-122" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-124" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F8FBFF;strokeColor=#77B5FE;strokeWidth=1.5;fontSize=12.5;fontColor=#133B63;fontStyle=1;" value="可选：晋升为&lt;br&gt;SSD read / Memory" vertex="1">
+          <mxGeometry height="58" width="130" x="2510" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-125" edge="1" parent="1" source="CX4mUiV48wwziLAcMwSz-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2F80ED;" target="CX4mUiV48wwziLAcMwSz-124" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#F2F8FE;strokeColor=#A7CAE9;strokeWidth=1.5;fontSize=13;fontColor=#133B63;" value="SSD writeback cache 是 dirty；其他读缓存是 clean cache。" vertex="1">
+          <mxGeometry height="35" width="640" x="1960" y="5500" as="geometry" />
+        </mxCell>
+        <mxCell id="CX4mUiV48wwziLAcMwSz-127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#EEF3F8;strokeColor=#CAD8E5;strokeWidth=1.5;fontSize=14;fontColor=#133B63;fontStyle=1;" value="💡 核心理解：Memory Cache 追求低延迟；SSD Read Cache 追求大容量与跨重启复用；SSD Writeback Cache 追求把远端写出从前台路径移走。读缓存可随时淘汰；dirty writeback 必须在上传完成后才能删除。" vertex="1">
+          <mxGeometry height="52" width="1560" x="1110" y="5570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
