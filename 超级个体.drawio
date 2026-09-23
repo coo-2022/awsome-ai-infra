@@ -408,23 +408,41 @@
         <mxCell id="P9jfySABTu97jrHxtx1q-109" parent="P9jfySABTu97jrHxtx1q-100" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="Branch" vertex="1">
           <mxGeometry height="26" width="72" x="1270" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="EASC9Cv_7uIOA5m7DFei-13" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="立项准备（原始构想）" vertex="1">
-          <mxGeometry height="40" width="120" x="-250" y="1395" as="geometry" />
-        </mxCell>
         <mxCell id="EASC9Cv_7uIOA5m7DFei-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CDT" vertex="1">
           <mxGeometry height="30" width="60" x="-370" y="1400" as="geometry" />
         </mxCell>
-        <mxCell id="EASC9Cv_7uIOA5m7DFei-15" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="市场分析" vertex="1">
-          <mxGeometry height="40" width="120" x="-110" y="1395" as="geometry" />
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-19" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" value="CDT" vertex="1">
+          <mxGeometry height="380" width="770" x="-310" y="1490" as="geometry" />
         </mxCell>
-        <mxCell id="EASC9Cv_7uIOA5m7DFei-16" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="offering定义" vertex="1">
-          <mxGeometry height="40" width="120" x="30" y="1395" as="geometry" />
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-20" parent="EASC9Cv_7uIOA5m7DFei-19" style="swimlane;startSize=20;horizontal=0;html=1;" value="Lane 1" vertex="1">
+          <mxGeometry height="120" width="770" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="EASC9Cv_7uIOA5m7DFei-17" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="执行策略" vertex="1">
-          <mxGeometry height="40" width="120" x="170" y="1395" as="geometry" />
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-23" parent="EASC9Cv_7uIOA5m7DFei-20" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Charter Development Process" vertex="1">
+          <mxGeometry height="30" width="380" x="195" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="EASC9Cv_7uIOA5m7DFei-18" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="chapter移交" vertex="1">
-          <mxGeometry height="40" width="120" x="310" y="1395" as="geometry" />
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-21" parent="EASC9Cv_7uIOA5m7DFei-19" style="swimlane;startSize=20;horizontal=0;html=1;" value="Lane 2" vertex="1">
+          <mxGeometry height="120" width="770" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-13" parent="EASC9Cv_7uIOA5m7DFei-21" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="立项准备（原始构想）" vertex="1">
+          <mxGeometry height="40" width="120" x="51" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-15" parent="EASC9Cv_7uIOA5m7DFei-21" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="市场分析" vertex="1">
+          <mxGeometry height="40" width="120" x="191" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-16" parent="EASC9Cv_7uIOA5m7DFei-21" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="offering定义" vertex="1">
+          <mxGeometry height="40" width="120" x="331" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-17" parent="EASC9Cv_7uIOA5m7DFei-21" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="执行策略" vertex="1">
+          <mxGeometry height="40" width="120" x="471" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-18" parent="EASC9Cv_7uIOA5m7DFei-21" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="chapter移交" vertex="1">
+          <mxGeometry height="40" width="120" x="611" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-22" parent="EASC9Cv_7uIOA5m7DFei-19" style="swimlane;startSize=20;horizontal=0;html=1;" value="Lane 3" vertex="1">
+          <mxGeometry height="120" width="770" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="EASC9Cv_7uIOA5m7DFei-24" parent="EASC9Cv_7uIOA5m7DFei-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Why：为什么要做这个产品？行业趋势、市场机会、客户需求、竞争力、利润&lt;div&gt;What：产品和解决方案应该做成什么样？产品和解决方案需求包，商业设计&lt;/div&gt;&lt;div&gt;When：产品上市、开发和生命周期里程碑&lt;/div&gt;&lt;div&gt;How Much：是否能赚钱，需要什么样的人投入？人、财、物&lt;/div&gt;&lt;div&gt;How：如何做才能达成商业目标？开发实现策略、营销策略、服务策略等&lt;/div&gt;&lt;div&gt;Who：谁承担项目开发任务？开发团队组织及成员&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="611" x="79.5" y="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
