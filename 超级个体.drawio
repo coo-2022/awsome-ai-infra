@@ -408,9 +408,6 @@
         <mxCell id="P9jfySABTu97jrHxtx1q-109" parent="P9jfySABTu97jrHxtx1q-100" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="Branch" vertex="1">
           <mxGeometry height="26" width="72" x="1270" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="EASC9Cv_7uIOA5m7DFei-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CDT" vertex="1">
-          <mxGeometry height="30" width="60" x="-370" y="1400" as="geometry" />
-        </mxCell>
         <mxCell id="EASC9Cv_7uIOA5m7DFei-19" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" value="CDT" vertex="1">
           <mxGeometry height="380" width="770" x="-310" y="1490" as="geometry" />
         </mxCell>
